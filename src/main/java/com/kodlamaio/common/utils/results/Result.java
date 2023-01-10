@@ -1,7 +1,7 @@
 package com.kodlamaio.common.utils.results;
 
 public class Result {
-    private final boolean success;
+    private boolean success;
     private String message;
 
     public Result(boolean success) {
